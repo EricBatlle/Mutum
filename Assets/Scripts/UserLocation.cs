@@ -6,11 +6,15 @@ using UnityEngine.UI;
 public class UserLocation : MonoBehaviour {
 
     [SerializeField] private Text text;
+    [Tooltip("In Meters")]
+    [SerializeField] private float locationAccuracy = 10.0f;
+    [Tooltip("In Meters")]
+    [SerializeField] private float updateDistance = 1.0f;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         //Turn on location Services
-        Input.location.Start(10.0f,1.0f);
+        Input.location.Start(locationAccuracy, updateDistance);
 	}
 	
 	// Update is called once per frame
