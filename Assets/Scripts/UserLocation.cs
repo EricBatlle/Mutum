@@ -10,7 +10,7 @@ public class UserLocation : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //Turn on location Services
-        Input.location.Start(10.0f,10.0f);
+        Input.location.Start(10.0f,1.0f);
 	}
 	
 	// Update is called once per frame
