@@ -6,5 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Demo_base.unity
+    path: Assets/Purchase.unity
+    guid: e819bcd54f918ab4ca931a0521acc9f0
+  - enabled: 1
+    path: Assets/Mutum.unity
     guid: cfee6f17b051a574eb6367447707ed22
