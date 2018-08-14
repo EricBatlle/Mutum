@@ -82,7 +82,9 @@ public class GoogleMap : MonoBehaviour
 
 
         var req = new WWW(url + "?" + qs);
+        print(req.texture);
         yield return req;
+        print(req.texture);
         GetComponent<RawImage>().texture = req.texture;
     }
 	
